@@ -1,0 +1,73 @@
+.ai-translator {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  border: 1px solid #d7dbe2;
+  border-radius: 12px;
+  padding: 16px;
+  max-width: 720px;
+  background: #fff;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+}
+
+.ai-translator h3 {
+  margin: 0 0 12px;
+}
+
+.ai-translator__row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.ai-translator select,
+.ai-translator textarea,
+.ai-translator button {
+  font: inherit;
+}
+
+.ai-translator select,
+.ai-translator textarea {
+  width: 100%;
+  border: 1px solid #c8cfdb;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.ai-translator textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+.ai-translator button {
+  border: 0;
+  border-radius: 8px;
+  background: #1f6feb;
+  color: #fff;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+.ai-translator button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.ai-translator__output {
+  margin-top: 12px;
+  border: 1px dashed #c8cfdb;
+  border-radius: 8px;
+  padding: 10px;
+  white-space: pre-wrap;
+}
+
+.ai-translator__history {
+  margin-top: 14px;
+}
+
+.ai-translator__history ul {
+  padding-left: 16px;
+}
+
+.ai-translator__error {
+  color: #b42318;
+  margin-top: 8px;
+}
