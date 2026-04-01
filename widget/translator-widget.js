@@ -65,10 +65,10 @@
         <h3>AI Translator</h3>
         <div class="ai-translator__row">
           <select id="ai-source-lang">
-            <option>English</option><option>Spanish</option><option>French</option><option>German</option><option>Japanese</option><option>Arabic</option><option>Indonesian</option><option>Malay</option><option>Thai</option><option>Vietnamese</option><option>Filipino (Tagalog)</option><option>Burmese (Myanmar)</option><option>Khmer (Cambodian)</option><option>Lao</option><option>Javanese</option><option>Sundanese</option>
+            <option>English</option><option>Spanish</option><option>French</option><option>German</option><option>Japanese</option><option>Arabic</option>
           </select>
           <select id="ai-target-lang">
-            <option>Spanish</option><option>English</option><option>French</option><option>German</option><option>Japanese</option><option>Arabic</option><option>Indonesian</option><option>Malay</option><option>Thai</option><option>Vietnamese</option><option>Filipino (Tagalog)</option><option>Burmese (Myanmar)</option><option>Khmer (Cambodian)</option><option>Lao</option><option>Javanese</option><option>Sundanese</option>
+            <option>Spanish</option><option>English</option><option>French</option><option>German</option><option>Japanese</option><option>Arabic</option>
           </select>
         </div>
         <textarea id="ai-source-text" placeholder="Type text to translate..."></textarea>

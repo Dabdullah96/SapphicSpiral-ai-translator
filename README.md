@@ -1,11 +1,10 @@
 # AI Translator Widget (Supabase + OpenAI)
 
-This repository contains an embeddable AI translation app you can drop into any website and connect to Supabase for storage, including support for multiple Southeast Asian languages.
+This repository contains an embeddable AI translation app you can drop into any website and connect to Supabase for storage.
 
 ## What you get
 
 - **Embeddable translator widget** (plain JS + CSS, no framework required)
-- **Multi-language support with Southeast Asia coverage** (Indonesian, Malay, Thai, Vietnamese, Filipino/Tagalog, Burmese, Khmer, Lao, Javanese, Sundanese, and more)
 - **Supabase database schema** to store translation history
 - **Supabase Edge Function** that calls OpenAI securely (API key stays server-side)
 - **Example embed snippet** for any existing website
